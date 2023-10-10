@@ -19,9 +19,11 @@ body {
 }
 
 .header h1 {
-  width: 25%;
-  background-color: #CFA8E3;
-  padding: 0 15px 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  width: max-content;
+  background-color:#800080;
+  padding: 15px;
   line-height: normal;
 }
 
@@ -32,6 +34,8 @@ body {
 } 
 
 .header nav a {
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
   margin-right: 40px; 
   color: black;
 }
@@ -72,7 +76,7 @@ nav a:hover {
 }
 .page-section {
   border-right: 4px solid #7FB3D5;
-  font-size: 22px;
+ 
   text-align: center;
 } 
 h2 {
@@ -125,6 +129,7 @@ figure {
   position: absolute;
   bottom: 3px;
   margin-left: 0%;
+  color: #800080;
   
 }
 .Grid img {
@@ -143,6 +148,8 @@ figure {
 }
 
 .footerNav a {
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
   color: black;
   font-size: 22px;
   margin-left: 10px;
@@ -151,8 +158,45 @@ figure {
   background-color: #CFA8E3;
   padding: 10px;
 }
-@media screen and (max-width: 1000px) {
-header h1 {
+@media only screen and (max-width: 600px) {
+  .header h1 {
+   display: flex;
+   justify-content: center;
+  width: 100%;
+  margin-top: auto;
+  background-color:#800080;
   
-}
+  }
+  
+  .header nav { 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+  }
+  .page-container {
+    width: 100;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100%;
+  
+  }
+  .page-section {
+    border: 4px solid #7FB3D5;
+  }
+  .page-container p {
+    display: flex;
+    
+    justify-content: center;
+  }
+    
+    
+  
+  
+
+    
+
+    
+  
 }
