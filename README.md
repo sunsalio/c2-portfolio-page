@@ -8,18 +8,17 @@ The purpose of this project is  to create  portfolio page that showcases the ski
 The deployed application contains my name, a section about me, my works and how to contact me. The work section outlines projects I've worked on and others i would like to complete once I've gained the neccessary skills.
 
 link to deployed application:
-https://github.com/sunsalio/c2-portfolio-page.git
+https://sunsalio.github.io/c2-portfolio-page/
 
 screenshot of complete portfolio website|:
-(assets/images/HEREEEEEEE!!!)
 
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![alt text](assets/images/portfolio-page.png)
     ```
 
 ## Credits
 
-Portfolio image
+Portfolio   image
 -Origin: pix4free
 -link to image: https://pix4free.org/assets/library/2021-05-25/originals/portfolio.jpg
 
